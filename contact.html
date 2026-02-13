@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Atlas Living</title>
+  <meta name="description" content="Contact Atlas Living via WhatsApp or email. Send inquiries and get quick support." />
+  <meta property="og:title" content="Contact | Atlas Living" />
+  <meta property="og:description" content="Reach Atlas Living for booking support and stay inquiries." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourusername.github.io/atlas/contact.html" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Atlas Living</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="apartments.html">Apartments</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="policies.html">Policies</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section container">
+    <h1>Contact Atlas Living</h1>
+
+    <a class="btn btn-whatsapp" href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+
+    <section class="contact-layout">
+      <form class="card contact-form" action="mailto:hello@atlasliving.example" method="post" enctype="text/plain">
+        <h2>Quick Inquiry Form</h2>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn btn-primary">Send</button>
+        <p class="form-note">If your email client doesn't open, send us a message at <a href="mailto:hello@atlasliving.example">hello@atlasliving.example</a>.</p>
+      </form>
+
+      <div class="card map-placeholder" aria-label="Map placeholder">
+        <h2>Location</h2>
+        <p>Map placeholder — replace with an embedded Google Maps or Apple Maps iframe.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Atlas Living. All rights reserved.</p>
+      <p><a href="policies.html">Policies</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

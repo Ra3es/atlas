@@ -1,4 +1,57 @@
-<!doctype html><html lang='en'><head><meta charset='UTF-8'/><meta name='viewport' content='width=device-width, initial-scale=1.0'/><title>Book Your Stay | Atlas Living</title><meta name='description' content='Reserve your Atlas Living apartment using the embedded booking engine.'/><meta property='og:title' content='Book Your Stay | Atlas Living'/><meta property='og:description' content='Use our secure embedded booking provider to reserve your stay.'/><meta property='og:type' content='website'/><meta property='og:url' content='https://yourusername.github.io/atlas/book.html'/><meta property='og:image' content='https://yourusername.github.io/atlas/assets/images/hero-placeholder.svg'/><link rel='stylesheet' href='assets/css/styles.css'/></head><body>
-<header class='site-header'><div class='container nav-wrap'><a class='brand' href='index.html'>Atlas Living</a><nav><ul class='nav-links'><li><a href='index.html'>Home</a></li><li><a href='apartments.html'>Apartments</a></li><li><a href='property.html'>Property</a></li><li><a class='active' href='book.html'>Book</a></li><li><a href='policies.html'>Policies</a></li><li><a href='contact.html'>Contact</a></li></ul></nav></div></header>
-<main class='section container reveal'><h1>Book your stay</h1><p class='muted'>Paste your booking provider embed code in the slot below (iframe/script). Keep this page static for GitHub Pages compatibility.</p><div class='card'><div class='card-body'><p><strong>Embed slot:</strong> replace the placeholder iframe below with your provider code.</p><iframe title='Booking engine placeholder' src='about:blank' style='width:100%;min-height:620px;border:1px dashed #cfcfcf;border-radius:12px;background:#fafafa;'></iframe></div></div></main>
-<footer class='site-footer'><div class='container footer-wrap'><p>© <span id='year'></span> Atlas Living</p><p><a href='contact.html'>Need help?</a></p></div></footer><script src='assets/js/main.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book | Atlas Living</title>
+  <meta name="description" content="Secure your Atlas Living stay with our embedded booking experience." />
+  <meta property="og:title" content="Book | Atlas Living" />
+  <meta property="og:description" content="Book your next luxury stay with Atlas Living." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourusername.github.io/atlas/book.html" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Atlas Living</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="apartments.html">Apartments</a></li>
+          <li><a href="book.html" class="active">Book</a></li>
+          <li><a href="policies.html">Policies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section container">
+    <h1>Book Your Stay</h1>
+    <p class="subtitle">Use the embedded booking widget below. Replace the placeholder iframe source with your provider embed URL/code.</p>
+
+    <div class="embed-note card">
+      <strong>Integration note:</strong> Paste your booking provider embed code here (e.g., Hostaway, Lodgify, Smoobu, etc.).
+    </div>
+
+    <div class="booking-embed card">
+      <iframe
+        title="Atlas Living Booking Widget Placeholder"
+        src="https://example.com"
+        loading="lazy"
+        referrerpolicy="no-referrer"
+      ></iframe>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Atlas Living. All rights reserved.</p>
+      <p><a href="policies.html">Policies</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
